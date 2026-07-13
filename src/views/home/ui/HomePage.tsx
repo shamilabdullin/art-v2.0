@@ -5,6 +5,7 @@ import { ArtworksGallery } from "@/widgets/artworks-gallery";
 import { Container, ErrorMessage } from "@/shared/ui";
 import { PAGE_SIZE } from "@/shared/config/site";
 import { Hero } from "./Hero";
+import { PopularTags } from "./PopularTags";
 import styles from "./HomePage.module.scss";
 
 const REVALIDATE_SECONDS = 3600;
@@ -21,6 +22,7 @@ export async function HomePage() {
     return (
       <Container>
         <Hero />
+        <PopularTags />
         <ErrorMessage title={tCommon("errorTitle")} description={t("errorDescription")} />
       </Container>
     );
@@ -29,6 +31,7 @@ export async function HomePage() {
   return (
     <Container>
       <Hero />
+      <PopularTags />
       <section className={styles.wrapper}>
         <div className={styles.sectionHeader}>
           <h2 className={styles.sectionTitle}>{t("featuredTitle")}</h2>
