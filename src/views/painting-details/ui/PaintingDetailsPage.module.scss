@@ -64,6 +64,13 @@
   color: var(--color-text-secondary);
 }
 
+.artistLink {
+  &:hover {
+    color: var(--color-text);
+    text-decoration: underline;
+  }
+}
+
 .description {
   display: flex;
   flex-direction: column;

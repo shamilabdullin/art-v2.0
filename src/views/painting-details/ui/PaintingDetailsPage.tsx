@@ -51,9 +51,13 @@ export async function PaintingDetailsPage({ id }: { id: string }) {
             <h1 className={styles.title}>{artwork.title}</h1>
             {artwork.artist_title ? (
               <p className={styles.subtitle}>
-                <Link href={artwork.artist_id ? `/artists/${artwork.artist_id}` : "#"}>
-                  {artwork.artist_title}
-                </Link>
+                {artwork.artist_id ? (
+                  <Link href={`/artists/${artwork.artist_id}`} className={styles.artistLink}>
+                    {artwork.artist_title}
+                  </Link>
+                ) : (
+                  artwork.artist_title
+                )}
                 {artwork.date_display ? `, ${artwork.date_display}` : ""}
               </p>
             ) : null}
