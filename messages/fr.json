@@ -1,0 +1,119 @@
+{
+  "site": {
+    "description": "Une galerie d'art en ligne basée sur la collection de l'Art Institute of Chicago"
+  },
+  "nav": {
+    "home": "Accueil",
+    "paintings": "Tableaux",
+    "artists": "Artistes",
+    "about": "À propos",
+    "mature": "18+"
+  },
+  "search": {
+    "placeholder": "Rechercher un tableau par titre"
+  },
+  "filter": {
+    "placeholder": "Filtrer les tableaux par titre"
+  },
+  "theme": {
+    "toggle": "Changer de thème"
+  },
+  "menu": {
+    "open": "Ouvrir le menu",
+    "close": "Fermer le menu",
+    "dialogLabel": "Menu",
+    "mobileNavLabel": "Navigation mobile",
+    "mainNavLabel": "Navigation principale",
+    "themeLabel": "Thème",
+    "languageLabel": "Langue"
+  },
+  "pagination": {
+    "label": "Pagination",
+    "prev": "Précédent",
+    "next": "Suivant"
+  },
+  "common": {
+    "loading": "Chargement",
+    "errorTitle": "Une erreur est survenue",
+    "errorDescription": "Impossible de charger les données. Essayez de rafraîchir la page."
+  },
+  "home": {
+    "title": "{siteName} — une galerie d'art mondial",
+    "description": "{description}. Plus de 130 000 œuvres du domaine public.",
+    "featuredTitle": "Tableaux à la une",
+    "viewAll": "Tous les tableaux →",
+    "errorDescription": "Impossible de charger les tableaux de la collection. Réessayez plus tard."
+  },
+  "painting": {
+    "about": "À propos de ce tableau",
+    "details": "Détails",
+    "metaAuthor": "Artiste",
+    "metaDate": "Date de création",
+    "metaPlace": "Lieu de création",
+    "metaMedium": "Matériau/technique",
+    "metaDimensions": "Dimensions",
+    "metaStyle": "Style",
+    "metaClassification": "Classification",
+    "metaDepartment": "Département du musée",
+    "metaCredit": "Provenance",
+    "titleFallback": "Tableau"
+  },
+  "artists": {
+    "title": "Artistes",
+    "errorDescription": "Impossible de charger la liste des artistes. Réessayez plus tard.",
+    "emptyTitle": "Aucun artiste trouvé",
+    "titleFallback": "Artiste"
+  },
+  "artistDetail": {
+    "emptyTitle": "Cet artiste n'a pas encore de tableaux dans la collection",
+    "emptyDescription": "Essayez un autre artiste ou revenez à la liste complète des tableaux."
+  },
+  "paintingsList": {
+    "title": "Tableaux",
+    "errorDescription": "Impossible de charger la liste des tableaux. Réessayez plus tard.",
+    "errorDescriptionRetry": "Impossible de charger la liste des tableaux. Réessayez.",
+    "emptyTitle": "Aucun résultat",
+    "emptyDescription": "Essayez de modifier votre recherche."
+  },
+  "searchPage": {
+    "title": "Rechercher des tableaux",
+    "promptTitle": "Saisissez une recherche",
+    "promptDescription": "Commencez à taper le titre d'un tableau dans la barre de recherche ci-dessus — les résultats apparaîtront ici.",
+    "errorDescription": "La recherche a échoué. Réessayez.",
+    "resultsTitle": "Résultats pour « {query} »",
+    "countLabel": "Tableaux trouvés : {count}",
+    "emptyTitle": "Aucun résultat",
+    "emptyDescription": "Essayez de modifier votre requête.",
+    "metaTitle": "Recherche : {query}",
+    "metaTitleDefault": "Recherche"
+  },
+  "about": {
+    "title": "À propos de moi"
+  },
+  "footer": {
+    "credit": "Données fournies par",
+    "aboutLink": "À propos"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "backHome": "Retour à l'accueil"
+  },
+  "error": {
+    "description": "Une erreur inattendue s'est produite. Essayez de rafraîchir la page.",
+    "retry": "Réessayer"
+  },
+  "years": {
+    "present": "aujourd'hui"
+  },
+  "mature": {
+    "navLabel": "18+",
+    "pageTitle": "Contenu 18+",
+    "gateTitle": "Contenu réservé aux adultes",
+    "gateDescription": "Cette section contient des œuvres d'art représentant de la nudité et d'autres sujets non adaptés à tous les âges. Merci de confirmer que vous avez 18 ans ou plus.",
+    "confirmButton": "J'ai 18 ans ou plus, afficher",
+    "declineButton": "Retour à l'accueil",
+    "errorDescription": "Impossible de charger les tableaux. Réessayez plus tard.",
+    "emptyTitle": "Aucun résultat",
+    "emptyDescription": "Revenez plus tard."
+  }
+}

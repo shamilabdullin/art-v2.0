@@ -1,0 +1,119 @@
+{
+  "site": {
+    "description": "An online art gallery built on the Art Institute of Chicago collection"
+  },
+  "nav": {
+    "home": "Home",
+    "paintings": "Paintings",
+    "artists": "Artists",
+    "about": "About me",
+    "mature": "18+"
+  },
+  "search": {
+    "placeholder": "Search paintings by title"
+  },
+  "filter": {
+    "placeholder": "Filter paintings by title"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  },
+  "menu": {
+    "open": "Open menu",
+    "close": "Close menu",
+    "dialogLabel": "Menu",
+    "mobileNavLabel": "Mobile navigation",
+    "mainNavLabel": "Main navigation",
+    "themeLabel": "Theme",
+    "languageLabel": "Language"
+  },
+  "pagination": {
+    "label": "Pagination",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "common": {
+    "loading": "Loading",
+    "errorTitle": "Something went wrong",
+    "errorDescription": "Failed to load data. Please try refreshing the page."
+  },
+  "home": {
+    "title": "{siteName} — a gallery of world art",
+    "description": "{description}. Over 130,000 public-domain artworks.",
+    "featuredTitle": "Featured paintings",
+    "viewAll": "All paintings →",
+    "errorDescription": "Failed to load paintings from the collection. Please try again later."
+  },
+  "painting": {
+    "about": "About this painting",
+    "details": "Details",
+    "metaAuthor": "Artist",
+    "metaDate": "Date created",
+    "metaPlace": "Place of origin",
+    "metaMedium": "Medium/technique",
+    "metaDimensions": "Dimensions",
+    "metaStyle": "Style",
+    "metaClassification": "Classification",
+    "metaDepartment": "Museum department",
+    "metaCredit": "Credit line",
+    "titleFallback": "Painting"
+  },
+  "artists": {
+    "title": "Artists",
+    "errorDescription": "Failed to load the list of artists. Please try again later.",
+    "emptyTitle": "No artists found",
+    "titleFallback": "Artist"
+  },
+  "artistDetail": {
+    "emptyTitle": "This artist has no paintings in the collection yet",
+    "emptyDescription": "Try another artist or go back to the full list of paintings."
+  },
+  "paintingsList": {
+    "title": "Paintings",
+    "errorDescription": "Failed to load the list of paintings. Please try again later.",
+    "errorDescriptionRetry": "Failed to load the list of paintings. Please try again.",
+    "emptyTitle": "Nothing found",
+    "emptyDescription": "Try changing your search query."
+  },
+  "searchPage": {
+    "title": "Search paintings",
+    "promptTitle": "Enter a search query",
+    "promptDescription": "Start typing a painting title in the search bar above — results will appear here.",
+    "errorDescription": "Search failed. Please try again.",
+    "resultsTitle": "Results for “{query}”",
+    "countLabel": "Paintings found: {count}",
+    "emptyTitle": "Nothing found",
+    "emptyDescription": "Try changing your query.",
+    "metaTitle": "Search: {query}",
+    "metaTitleDefault": "Search"
+  },
+  "about": {
+    "title": "About me"
+  },
+  "footer": {
+    "credit": "Data provided by",
+    "aboutLink": "About me"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "backHome": "Back to home"
+  },
+  "error": {
+    "description": "An unexpected error occurred. Please try refreshing the page.",
+    "retry": "Try again"
+  },
+  "years": {
+    "present": "present"
+  },
+  "mature": {
+    "navLabel": "18+",
+    "pageTitle": "18+ content",
+    "gateTitle": "Adult content",
+    "gateDescription": "This section contains artworks depicting nudity and other subjects not suitable for all ages. Please confirm you are 18 or older.",
+    "confirmButton": "I'm 18 or older, show me",
+    "declineButton": "Back to home",
+    "errorDescription": "Failed to load paintings. Please try again later.",
+    "emptyTitle": "Nothing found",
+    "emptyDescription": "Please check back later."
+  }
+}

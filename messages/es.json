@@ -1,0 +1,119 @@
+{
+  "site": {
+    "description": "Una galería de arte en línea basada en la colección del Art Institute of Chicago"
+  },
+  "nav": {
+    "home": "Inicio",
+    "paintings": "Cuadros",
+    "artists": "Artistas",
+    "about": "Sobre mí",
+    "mature": "18+"
+  },
+  "search": {
+    "placeholder": "Buscar cuadros por título"
+  },
+  "filter": {
+    "placeholder": "Filtrar cuadros por título"
+  },
+  "theme": {
+    "toggle": "Cambiar tema"
+  },
+  "menu": {
+    "open": "Abrir menú",
+    "close": "Cerrar menú",
+    "dialogLabel": "Menú",
+    "mobileNavLabel": "Navegación móvil",
+    "mainNavLabel": "Navegación principal",
+    "themeLabel": "Tema",
+    "languageLabel": "Idioma"
+  },
+  "pagination": {
+    "label": "Paginación",
+    "prev": "Anterior",
+    "next": "Siguiente"
+  },
+  "common": {
+    "loading": "Cargando",
+    "errorTitle": "Algo salió mal",
+    "errorDescription": "No se pudieron cargar los datos. Intenta actualizar la página."
+  },
+  "home": {
+    "title": "{siteName} — una galería de arte mundial",
+    "description": "{description}. Más de 130 000 obras de dominio público.",
+    "featuredTitle": "Cuadros destacados",
+    "viewAll": "Todos los cuadros →",
+    "errorDescription": "No se pudieron cargar los cuadros de la colección. Inténtalo de nuevo más tarde."
+  },
+  "painting": {
+    "about": "Sobre este cuadro",
+    "details": "Detalles",
+    "metaAuthor": "Artista",
+    "metaDate": "Fecha de creación",
+    "metaPlace": "Lugar de origen",
+    "metaMedium": "Material/técnica",
+    "metaDimensions": "Dimensiones",
+    "metaStyle": "Estilo",
+    "metaClassification": "Clasificación",
+    "metaDepartment": "Departamento del museo",
+    "metaCredit": "Procedencia",
+    "titleFallback": "Cuadro"
+  },
+  "artists": {
+    "title": "Artistas",
+    "errorDescription": "No se pudo cargar la lista de artistas. Inténtalo de nuevo más tarde.",
+    "emptyTitle": "No se encontraron artistas",
+    "titleFallback": "Artista"
+  },
+  "artistDetail": {
+    "emptyTitle": "Este artista todavía no tiene cuadros en la colección",
+    "emptyDescription": "Prueba con otro artista o vuelve a la lista completa de cuadros."
+  },
+  "paintingsList": {
+    "title": "Cuadros",
+    "errorDescription": "No se pudo cargar la lista de cuadros. Inténtalo de nuevo más tarde.",
+    "errorDescriptionRetry": "No se pudo cargar la lista de cuadros. Inténtalo de nuevo.",
+    "emptyTitle": "No se encontró nada",
+    "emptyDescription": "Prueba a cambiar tu búsqueda."
+  },
+  "searchPage": {
+    "title": "Buscar cuadros",
+    "promptTitle": "Introduce una búsqueda",
+    "promptDescription": "Empieza a escribir el título de un cuadro en la barra de búsqueda de arriba — los resultados aparecerán aquí.",
+    "errorDescription": "La búsqueda falló. Inténtalo de nuevo.",
+    "resultsTitle": "Resultados para «{query}»",
+    "countLabel": "Cuadros encontrados: {count}",
+    "emptyTitle": "No se encontró nada",
+    "emptyDescription": "Prueba a cambiar tu consulta.",
+    "metaTitle": "Buscar: {query}",
+    "metaTitleDefault": "Buscar"
+  },
+  "about": {
+    "title": "Sobre mí"
+  },
+  "footer": {
+    "credit": "Datos proporcionados por",
+    "aboutLink": "Sobre mí"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "backHome": "Volver al inicio"
+  },
+  "error": {
+    "description": "Ocurrió un error inesperado. Intenta actualizar la página.",
+    "retry": "Intentar de nuevo"
+  },
+  "years": {
+    "present": "actualidad"
+  },
+  "mature": {
+    "navLabel": "18+",
+    "pageTitle": "Contenido 18+",
+    "gateTitle": "Contenido para adultos",
+    "gateDescription": "Esta sección contiene obras de arte con desnudos y otros temas no aptos para todas las edades. Confirma que tienes 18 años o más.",
+    "confirmButton": "Tengo 18 años o más, mostrar",
+    "declineButton": "Volver al inicio",
+    "errorDescription": "No se pudieron cargar los cuadros. Inténtalo de nuevo más tarde.",
+    "emptyTitle": "No se encontró nada",
+    "emptyDescription": "Vuelve a intentarlo más tarde."
+  }
+}

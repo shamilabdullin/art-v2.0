@@ -1,0 +1,59 @@
+@use "app/styles" as *;
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding-block: 32px;
+}
+
+.gap {
+  padding-inline: 8px;
+  color: var(--color-text-secondary);
+  user-select: none;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding-inline: 12px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  border-radius: $radius-sm;
+
+  &:hover {
+    background-color: var(--color-bg-hover);
+  }
+}
+
+.navLinkDisabled {
+  color: var(--color-border);
+}
+
+.pageLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  min-width: 36px;
+  padding-inline: 8px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  border-radius: $radius-sm;
+
+  &:hover {
+    background-color: var(--color-bg-hover);
+  }
+}
+
+.pageLinkActive {
+  color: var(--color-accent-contrast);
+  background-color: var(--color-accent);
+
+  &:hover {
+    background-color: var(--color-accent);
+  }
+}

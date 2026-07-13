@@ -1,0 +1,22 @@
+@use "app/styles" as *;
+
+.wrapper {
+  padding-block: 80px;
+}
+
+.retryButton {
+  display: block;
+  margin: 16px auto 0;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-accent-contrast);
+  background-color: var(--color-accent);
+  border-radius: $radius-md;
+
+  &:hover {
+    background-color: var(--color-accent-hover);
+  }
+
+  @include focus-ring;
+}

@@ -1,0 +1,19 @@
+@use "app/styles" as *;
+
+.link {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--color-text);
+  }
+
+  @include focus-ring;
+}
+
+.linkActive {
+  color: var(--color-text);
+  font-weight: 600;
+}

@@ -1,0 +1,30 @@
+@use "app/styles" as *;
+
+.wrapper {
+  padding-block: 32px 64px;
+}
+
+.title {
+  margin-bottom: 24px;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-text);
+
+  @include tablet {
+    font-size: 32px;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include desktop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

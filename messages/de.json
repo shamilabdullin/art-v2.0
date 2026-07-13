@@ -1,0 +1,119 @@
+{
+  "site": {
+    "description": "Eine Online-Kunstgalerie auf Basis der Sammlung des Art Institute of Chicago"
+  },
+  "nav": {
+    "home": "Start",
+    "paintings": "Gemälde",
+    "artists": "Künstler",
+    "about": "Über mich",
+    "mature": "18+"
+  },
+  "search": {
+    "placeholder": "Gemälde nach Titel suchen"
+  },
+  "filter": {
+    "placeholder": "Gemälde nach Titel filtern"
+  },
+  "theme": {
+    "toggle": "Design wechseln"
+  },
+  "menu": {
+    "open": "Menü öffnen",
+    "close": "Menü schließen",
+    "dialogLabel": "Menü",
+    "mobileNavLabel": "Mobile Navigation",
+    "mainNavLabel": "Hauptnavigation",
+    "themeLabel": "Design",
+    "languageLabel": "Sprache"
+  },
+  "pagination": {
+    "label": "Seitennavigation",
+    "prev": "Zurück",
+    "next": "Weiter"
+  },
+  "common": {
+    "loading": "Wird geladen",
+    "errorTitle": "Etwas ist schiefgelaufen",
+    "errorDescription": "Daten konnten nicht geladen werden. Bitte Seite aktualisieren."
+  },
+  "home": {
+    "title": "{siteName} — eine Galerie der Weltkunst",
+    "description": "{description}. Über 130.000 gemeinfreie Kunstwerke.",
+    "featuredTitle": "Ausgewählte Gemälde",
+    "viewAll": "Alle Gemälde →",
+    "errorDescription": "Gemälde aus der Sammlung konnten nicht geladen werden. Bitte später erneut versuchen."
+  },
+  "painting": {
+    "about": "Über dieses Gemälde",
+    "details": "Details",
+    "metaAuthor": "Künstler",
+    "metaDate": "Entstehungsdatum",
+    "metaPlace": "Entstehungsort",
+    "metaMedium": "Material/Technik",
+    "metaDimensions": "Maße",
+    "metaStyle": "Stil",
+    "metaClassification": "Klassifikation",
+    "metaDepartment": "Museumsabteilung",
+    "metaCredit": "Herkunft",
+    "titleFallback": "Gemälde"
+  },
+  "artists": {
+    "title": "Künstler",
+    "errorDescription": "Die Künstlerliste konnte nicht geladen werden. Bitte später erneut versuchen.",
+    "emptyTitle": "Keine Künstler gefunden",
+    "titleFallback": "Künstler"
+  },
+  "artistDetail": {
+    "emptyTitle": "Von diesem Künstler sind noch keine Gemälde in der Sammlung",
+    "emptyDescription": "Versuchen Sie einen anderen Künstler oder kehren Sie zur vollständigen Gemäldeliste zurück."
+  },
+  "paintingsList": {
+    "title": "Gemälde",
+    "errorDescription": "Die Gemäldeliste konnte nicht geladen werden. Bitte später erneut versuchen.",
+    "errorDescriptionRetry": "Die Gemäldeliste konnte nicht geladen werden. Bitte erneut versuchen.",
+    "emptyTitle": "Nichts gefunden",
+    "emptyDescription": "Versuchen Sie, Ihre Suche zu ändern."
+  },
+  "searchPage": {
+    "title": "Gemälde suchen",
+    "promptTitle": "Suchbegriff eingeben",
+    "promptDescription": "Geben Sie oben im Suchfeld einen Gemäldetitel ein — die Ergebnisse erscheinen hier.",
+    "errorDescription": "Die Suche ist fehlgeschlagen. Bitte erneut versuchen.",
+    "resultsTitle": "Ergebnisse für „{query}“",
+    "countLabel": "Gefundene Gemälde: {count}",
+    "emptyTitle": "Nichts gefunden",
+    "emptyDescription": "Versuchen Sie, Ihre Anfrage zu ändern.",
+    "metaTitle": "Suche: {query}",
+    "metaTitleDefault": "Suche"
+  },
+  "about": {
+    "title": "Über mich"
+  },
+  "footer": {
+    "credit": "Daten bereitgestellt von",
+    "aboutLink": "Über mich"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "backHome": "Zurück zur Startseite"
+  },
+  "error": {
+    "description": "Ein unerwarteter Fehler ist aufgetreten. Bitte Seite aktualisieren.",
+    "retry": "Erneut versuchen"
+  },
+  "years": {
+    "present": "heute"
+  },
+  "mature": {
+    "navLabel": "18+",
+    "pageTitle": "Inhalte ab 18",
+    "gateTitle": "Inhalte für Erwachsene",
+    "gateDescription": "Dieser Bereich enthält Kunstwerke mit Darstellungen von Nacktheit und anderen Themen, die nicht für alle Altersgruppen geeignet sind. Bitte bestätigen Sie, dass Sie mindestens 18 Jahre alt sind.",
+    "confirmButton": "Ich bin 18 oder älter, anzeigen",
+    "declineButton": "Zurück zur Startseite",
+    "errorDescription": "Gemälde konnten nicht geladen werden. Bitte später erneut versuchen.",
+    "emptyTitle": "Nichts gefunden",
+    "emptyDescription": "Bitte später noch einmal vorbeischauen."
+  }
+}

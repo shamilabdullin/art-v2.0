@@ -1,0 +1,22 @@
+@use "app/styles" as *;
+
+.nav {
+  display: none;
+
+  @include desktop {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+.mature {
+  font-weight: 700;
+  color: var(--color-danger);
+
+  &:hover {
+    color: var(--color-danger);
+    opacity: 0.8;
+  }
+}
+

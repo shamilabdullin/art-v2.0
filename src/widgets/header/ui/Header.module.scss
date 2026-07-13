@@ -1,0 +1,35 @@
+@use "app/styles" as *;
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: $z-header;
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.inner {
+  @include container;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: 64px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.actions {
+  display: none;
+  align-items: center;
+  gap: 8px;
+
+  @include desktop {
+    display: flex;
+  }
+}

@@ -1,0 +1,22 @@
+@use "app/styles" as *;
+
+.wrapper {
+  padding-block: 32px 64px;
+}
+
+.title {
+  margin-bottom: 4px;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-text);
+
+  @include tablet {
+    font-size: 28px;
+  }
+}
+
+.count {
+  margin-bottom: 24px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}

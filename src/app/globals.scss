@@ -1,0 +1,20 @@
+@use "./styles/reset";
+@use "./styles/theme";
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+code,
+pre {
+  font-family: var(--font-geist-mono), monospace;
+}

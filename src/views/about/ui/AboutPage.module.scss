@@ -1,0 +1,43 @@
+@use "app/styles" as *;
+
+.wrapper {
+  max-width: 720px;
+  padding-block: 40px 80px;
+  margin-inline: auto;
+}
+
+.title {
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-text);
+
+  @include tablet {
+    font-size: 36px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin-top: 16px;
+}
+
+.contactLink {
+  font-size: 15px;
+  color: var(--color-accent);
+
+  &:hover {
+    color: var(--color-accent-hover);
+  }
+}

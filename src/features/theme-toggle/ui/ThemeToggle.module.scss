@@ -1,0 +1,32 @@
+@use "app/styles" as *;
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: $radius-md;
+  color: var(--color-text);
+
+  &:hover {
+    background-color: var(--color-bg-hover);
+  }
+
+  @include focus-ring;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+// Иконки не переключаются через условный рендер, чтобы избежать
+// расхождения SSR/CSR-разметки: обе иконки в DOM всегда, видимость решает CSS.
+:global(html[data-theme="dark"]) .iconSun {
+  display: none;
+}
+
+:global(html[data-theme="light"]) .iconMoon {
+  display: none;
+}
