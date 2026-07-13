@@ -3,7 +3,6 @@ import { searchArtworks } from "@/entities/painting";
 import { ArtworksGallery } from "@/widgets/artworks-gallery";
 import { Container, EmptyState, ErrorMessage, Pagination } from "@/shared/ui";
 import { PAGE_SIZE } from "@/shared/config/site";
-import { MatureGate } from "./MatureGate";
 import styles from "./MaturePage.module.scss";
 
 const REVALIDATE_SECONDS = 3600;
@@ -26,9 +25,7 @@ export async function MaturePage({ page }: { page: number }) {
       <Container>
         <div className={styles.wrapper}>
           <h1 className={styles.title}>{t("pageTitle")}</h1>
-          <MatureGate>
-            <ErrorMessage title={tCommon("errorTitle")} description={t("errorDescription")} />
-          </MatureGate>
+          <ErrorMessage title={tCommon("errorTitle")} description={t("errorDescription")} />
         </div>
       </Container>
     );
@@ -38,20 +35,18 @@ export async function MaturePage({ page }: { page: number }) {
     <Container>
       <div className={styles.wrapper}>
         <h1 className={styles.title}>{t("pageTitle")}</h1>
-        <MatureGate>
-          {result.data.length === 0 ? (
-            <EmptyState title={t("emptyTitle")} description={t("emptyDescription")} />
-          ) : (
-            <>
-              <ArtworksGallery artworks={result.data} />
-              <Pagination
-                currentPage={page}
-                totalPages={result.pagination.total_pages}
-                buildHref={(p) => `/mature?page=${p}`}
-              />
-            </>
-          )}
-        </MatureGate>
+        {result.data.length === 0 ? (
+          <EmptyState title={t("emptyTitle")} description={t("emptyDescription")} />
+        ) : (
+          <>
+            <ArtworksGallery artworks={result.data} />
+            <Pagination
+              currentPage={page}
+              totalPages={result.pagination.total_pages}
+              buildHref={(p) => `/mature?page=${p}`}
+            />
+          </>
+        )}
       </div>
     </Container>
   );
