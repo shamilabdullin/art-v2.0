@@ -17,6 +17,21 @@
   }
 }
 
+.photoWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  margin-bottom: 24px;
+  background-color: var(--color-bg-elevated);
+  border-radius: $radius-lg;
+}
+
+.photo {
+  object-fit: cover;
+}
+
 .content {
   display: flex;
   flex-direction: column;

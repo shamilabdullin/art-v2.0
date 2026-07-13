@@ -40,6 +40,7 @@
   "home": {
     "title": "{siteName} — une galerie d'art mondial",
     "description": "{description}. Plus de 130 000 œuvres du domaine public.",
+    "tagsTitle": "Parcourir par thème",
     "featuredTitle": "Tableaux à la une",
     "viewAll": "Tous les tableaux →",
     "errorDescription": "Impossible de charger les tableaux de la collection. Réessayez plus tard."
@@ -88,7 +89,12 @@
     "metaTitleDefault": "Recherche"
   },
   "about": {
-    "title": "À propos de moi"
+    "title": "À propos de moi",
+    "paragraph1": "Bonjour, je m'appelle Abdullin Shamil, et ce site est mon projet.",
+    "paragraph2": "J'utilise la collection de la base de données de l'Art Institute of Chicago.",
+    "paragraph3": "Je l'ai créé pour les artistes et pour tous ceux qui s'intéressent à l'art.",
+    "paragraph4": "J'espère qu'il vous plaira.",
+    "githubLabel": "Lien du projet GitHub"
   },
   "footer": {
     "credit": "Données fournies par",
@@ -108,10 +114,6 @@
   "mature": {
     "navLabel": "18+",
     "pageTitle": "Contenu 18+",
-    "gateTitle": "Contenu réservé aux adultes",
-    "gateDescription": "Cette section contient des œuvres d'art représentant de la nudité et d'autres sujets non adaptés à tous les âges. Merci de confirmer que vous avez 18 ans ou plus.",
-    "confirmButton": "J'ai 18 ans ou plus, afficher",
-    "declineButton": "Retour à l'accueil",
     "errorDescription": "Impossible de charger les tableaux. Réessayez plus tard.",
     "emptyTitle": "Aucun résultat",
     "emptyDescription": "Revenez plus tard."

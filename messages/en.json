@@ -40,6 +40,7 @@
   "home": {
     "title": "{siteName} — a gallery of world art",
     "description": "{description}. Over 130,000 public-domain artworks.",
+    "tagsTitle": "Browse by tag",
     "featuredTitle": "Featured paintings",
     "viewAll": "All paintings →",
     "errorDescription": "Failed to load paintings from the collection. Please try again later."
@@ -88,7 +89,12 @@
     "metaTitleDefault": "Search"
   },
   "about": {
-    "title": "About me"
+    "title": "About me",
+    "paragraph1": "Hello, my name is Abdullin Shamil, and this site is my project.",
+    "paragraph2": "I use collection from database of the Art Institute of Chicago.",
+    "paragraph3": "I create it for artists and those, who interested in art.",
+    "paragraph4": "I hope you will enjoy it.",
+    "githubLabel": "GitHub project link"
   },
   "footer": {
     "credit": "Data provided by",
@@ -108,10 +114,6 @@
   "mature": {
     "navLabel": "18+",
     "pageTitle": "18+ content",
-    "gateTitle": "Adult content",
-    "gateDescription": "This section contains artworks depicting nudity and other subjects not suitable for all ages. Please confirm you are 18 or older.",
-    "confirmButton": "I'm 18 or older, show me",
-    "declineButton": "Back to home",
     "errorDescription": "Failed to load paintings. Please try again later.",
     "emptyTitle": "Nothing found",
     "emptyDescription": "Please check back later."

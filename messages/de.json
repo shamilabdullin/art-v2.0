@@ -40,6 +40,7 @@
   "home": {
     "title": "{siteName} — eine Galerie der Weltkunst",
     "description": "{description}. Über 130.000 gemeinfreie Kunstwerke.",
+    "tagsTitle": "Nach Thema durchsuchen",
     "featuredTitle": "Ausgewählte Gemälde",
     "viewAll": "Alle Gemälde →",
     "errorDescription": "Gemälde aus der Sammlung konnten nicht geladen werden. Bitte später erneut versuchen."
@@ -88,7 +89,12 @@
     "metaTitleDefault": "Suche"
   },
   "about": {
-    "title": "Über mich"
+    "title": "Über mich",
+    "paragraph1": "Hallo, mein Name ist Abdullin Shamil, und diese Seite ist mein Projekt.",
+    "paragraph2": "Ich verwende die Sammlung aus der Datenbank des Art Institute of Chicago.",
+    "paragraph3": "Ich habe sie für Künstler und alle, die sich für Kunst interessieren, erstellt.",
+    "paragraph4": "Ich hoffe, sie gefällt dir.",
+    "githubLabel": "GitHub-Projektlink"
   },
   "footer": {
     "credit": "Daten bereitgestellt von",
@@ -108,10 +114,6 @@
   "mature": {
     "navLabel": "18+",
     "pageTitle": "Inhalte ab 18",
-    "gateTitle": "Inhalte für Erwachsene",
-    "gateDescription": "Dieser Bereich enthält Kunstwerke mit Darstellungen von Nacktheit und anderen Themen, die nicht für alle Altersgruppen geeignet sind. Bitte bestätigen Sie, dass Sie mindestens 18 Jahre alt sind.",
-    "confirmButton": "Ich bin 18 oder älter, anzeigen",
-    "declineButton": "Zurück zur Startseite",
     "errorDescription": "Gemälde konnten nicht geladen werden. Bitte später erneut versuchen.",
     "emptyTitle": "Nichts gefunden",
     "emptyDescription": "Bitte später noch einmal vorbeischauen."

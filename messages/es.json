@@ -40,6 +40,7 @@
   "home": {
     "title": "{siteName} — una galería de arte mundial",
     "description": "{description}. Más de 130 000 obras de dominio público.",
+    "tagsTitle": "Buscar por tema",
     "featuredTitle": "Cuadros destacados",
     "viewAll": "Todos los cuadros →",
     "errorDescription": "No se pudieron cargar los cuadros de la colección. Inténtalo de nuevo más tarde."
@@ -88,7 +89,12 @@
     "metaTitleDefault": "Buscar"
   },
   "about": {
-    "title": "Sobre mí"
+    "title": "Sobre mí",
+    "paragraph1": "Hola, me llamo Abdullin Shamil, y este sitio es mi proyecto.",
+    "paragraph2": "Uso la colección de la base de datos del Instituto de Arte de Chicago.",
+    "paragraph3": "Lo creé para artistas y para quienes se interesan por el arte.",
+    "paragraph4": "Espero que lo disfrutes.",
+    "githubLabel": "Enlace del proyecto en GitHub"
   },
   "footer": {
     "credit": "Datos proporcionados por",
@@ -108,10 +114,6 @@
   "mature": {
     "navLabel": "18+",
     "pageTitle": "Contenido 18+",
-    "gateTitle": "Contenido para adultos",
-    "gateDescription": "Esta sección contiene obras de arte con desnudos y otros temas no aptos para todas las edades. Confirma que tienes 18 años o más.",
-    "confirmButton": "Tengo 18 años o más, mostrar",
-    "declineButton": "Volver al inicio",
     "errorDescription": "No se pudieron cargar los cuadros. Inténtalo de nuevo más tarde.",
     "emptyTitle": "No se encontró nada",
     "emptyDescription": "Vuelve a intentarlo más tarde."
