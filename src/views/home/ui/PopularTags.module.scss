@@ -5,10 +5,16 @@
 .list {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  // Margin-based spacing instead of `gap` on purpose: some in-app/embedded
+  // mobile browsers (Telegram, Instagram, older WebViews) don't support gap
+  // on flex containers and render wrapped rows with zero space between them,
+  // which reads as the bottom row overlapping the top one.
+  margin: -4px;
 }
 
 .tag {
+  display: inline-block;
+  margin: 4px;
   padding: 6px 14px;
   font-size: 14px;
   color: var(--color-text-secondary);
