@@ -6,18 +6,10 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "www.artic.edu",
-        pathname: "/iiif/**",
-      },
-    ],
-    // IIIF уже отдаёт изображение нужного размера по URL (см. IMAGE_SIZE),
-    // поэтому серверная оптимизация не нужна. Важнее, что CDN artic.edu стоит
-    // за Cloudflare bot-protection и блокирует именно серверные запросы —
-    // без unoptimized картинку будет грузить наш сервер (и может словить 403),
-    // а так запрос идёт напрямую из браузера пользователя, как обычный <img>.
+    // Картинки идут через собственный прокси /api/iiif (он добавляет заголовок
+    // AIC-User-Agent, без которого Cloudflare на artic.edu отдаёт challenge),
+    // а IIIF уже отдаёт изображение нужного размера (см. IMAGE_SIZE) —
+    // поэтому серверная оптимизация не нужна.
     unoptimized: true,
   },
   sassOptions: {
