@@ -2,6 +2,6 @@
 // Текстовые абзацы локализуются через messages/*.json (ключ "about").
 
 export const aboutContent = {
-  photo: { src: "/about/shamil.png", alt: "Abdullin Shamil" },
+  photo: { src: "/about/shamil.jpg", alt: "Abdullin Shamil" },
   contacts: [{ href: "https://github.com/shamilabdullin/art-v2.0" }],
 };
